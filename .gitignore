@@ -1,0 +1,16 @@
+# Secrets
+.token
+.webui_secret_key
+mcpo/config.json
+
+# Runtime
+venv/
+data/
+logs/
+pids/
+*.log
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
