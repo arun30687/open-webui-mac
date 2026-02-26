@@ -24,7 +24,7 @@ class Pipe:
     class Valves(BaseModel):
         OLLAMA_BASE_URL: str = Field(default="http://localhost:11434")
         MCPO_BASE_URL: str = Field(default="http://localhost:8300/github")
-        MODEL_ID: str = Field(default="qwen2.5:3b")
+        MODEL_ID: str = Field(default="qwen2.5:7b")
         NUM_CTX: int = Field(default=16384)
         MAX_TOOL_ROUNDS: int = Field(default=5)
         USE_ALL_TOOLS: bool = Field(default=False)
